@@ -38,6 +38,8 @@ form .display {
     display: flex;
     justify-content: flex-end;
     margin: 20px 0;
+    background: #ffffffc6;
+    border-radius: 10px;
 }
 
 form .display input {
@@ -45,6 +47,7 @@ form .display input {
     flex: 1;
     font-size: 45px;
     box-shadow: none;
+    color: #3a4452;
 }
 
 form input.equal {
@@ -52,5 +55,5 @@ form input.equal {
 }
 
 form input.operator {
-    color: #33ffd8
+    color: #33ffd8;
 }
